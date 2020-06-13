@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  margin: 0;
+  background-color: #FFFFFF;
+  padding: 40px 0;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.p-header {
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+img {
+  border-radius: 50%;
+  margin: 20px 0;
+  padding-top: 0px;
+  border: 2px solid #F03A47;
+}
+
+div {
+  width: 75%;
+  border-radius: 15px;
+  padding: 20px 0 30px 0;
+  margin: 20px auto;
+  background-color: white;
+  text-align: center;
+  box-shadow: 2px 5px 20px rgba(0,0,0,.1);
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+.wagon-button {
+  background-color: #F03A47; /* Red */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336;
+}
+
+.button:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.list-inline > li {
+  display: inline-block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+
+ul {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0px 0px 0 0;
+  display: inline-block;
+}
+
+i {
+  font-size: 30px;
+  color: #000000;
+}
+
+i:hover {
+  color: #F03A47;
+}
